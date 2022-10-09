@@ -1,0 +1,5 @@
+__pycache__/*
+mano_ik/__pycache__/*
+mano_ik/etherpose_viewer/__pycache__/*
+mano_ik/inverse_kinematics/__pycache__/*
+etherpose_viewer/__pycache__/*
