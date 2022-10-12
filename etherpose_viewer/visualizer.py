@@ -2,11 +2,11 @@ import trimesh
 import pyrender
 import numpy as np
 import argparse
-from pose2pose_viewer.smpl_np import SMPLModel
+from etherpose_viewer.smpl_np import SMPLModel
 from threading import Thread
 from queue import Queue
 import time
-from pose2pose_viewer.model_visual_config import joint_name_to_num
+from etherpose_viewer.model_visual_config import joint_name_to_num
 
 class PoseVisualizer():
     def __init__(self,filename,model_filename='./model.pkl',update=None,cam=[1.4, 1, 0, 0],isTrain=True):

@@ -1,5 +1,13 @@
 __pycache__/*
+data/__pycache__/*
 mano_ik/__pycache__/*
 mano_ik/etherpose_viewer/__pycache__/*
 mano_ik/inverse_kinematics/__pycache__/*
 etherpose_viewer/__pycache__/*
+.DS_Store
+data/.DS_Store
+mano_ik/.DS_Store
+mano_ik/etherpose_viewer/.DS_Store
+mano_ik/inverse_kinematics/.DS_Store
+etherpose_viewer/.DS_Store
+venv/*

@@ -1,0 +1,15 @@
+matplotlib
+scikit-rf
+pillow
+pyserial
+dash-daq
+trimesh
+pyrender
+tqdm
+vctoolkit
+scikit-learn
+pickle5
+pyqt5
+pyqtgraph
+mediapipe
+chumpy

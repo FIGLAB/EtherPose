@@ -1,17 +1,12 @@
+import sys
+sys.path.append("./mano_ik")
 import numpy as np
 import argparse
-try:
-    from mano_ik.etherpose_viewer.visualizer import PoseVisualizer
-    from mano_ik.inverse_kinematics.solver import *
-    from mano_ik.inverse_kinematics.armatures import *
-    from mano_ik.inverse_kinematics.models import *
-    import mano_ik.inverse_kinematics.config
-except:
-    from etherpose_viewer.visualizer import PoseVisualizer
-    from inverse_kinematics.solver import *
-    from inverse_kinematics.armatures import *
-    from inverse_kinematics.models import *
-    import inverse_kinematics.config
+from etherpose_viewer.visualizer import PoseVisualizer
+from inverse_kinematics.solver import *
+from inverse_kinematics.armatures import *
+from inverse_kinematics.models import *
+import inverse_kinematics.config
 import pandas as pd
 from tqdm import tqdm
 import matplotlib.pyplot as plt
