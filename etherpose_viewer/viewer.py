@@ -211,7 +211,7 @@ class Viewer(pyglet.window.Window):
             'lighting_intensity': 3.0,
             'use_perspective_cam': True,
             'save_directory': None,
-            'window_title': 'Pose2Pose',
+            'window_title': 'EtherPose',
             'refresh_rate': 30.0,
             'fullscreen': False,
             'show_world_axis': False,
@@ -1027,7 +1027,7 @@ class Viewer(pyglet.window.Window):
         self.set_caption(self.viewer_flags['window_title'])
         # pyglet.app.run()
 
-    def pose2pose_run(self):
+    def etherposevis_run(self):
         pyglet.app.run()
 
     def _compute_initial_camera_pose(self):

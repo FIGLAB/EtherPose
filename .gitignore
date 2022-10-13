@@ -12,6 +12,7 @@ mano_ik/inverse_kinematics/.DS_Store
 etherpose_viewer/.DS_Store
 venv/*
 
+mano_ik/inverse_kinematics/prepare_model.py
 mano_ik/inverse_kinematics/armatures.py
 mano_ik/inverse_kinematics/config.py
 mano_ik/inverse_kinematics/example.py

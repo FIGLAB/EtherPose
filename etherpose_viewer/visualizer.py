@@ -49,7 +49,7 @@ class PoseVisualizer():
             proc1.start()
             proc2.start()
 
-        viewer.pose2pose_run()
+        viewer.etherposevis_run()
 
     def _load_amass(self,file_name):
         data = np.load(file_name)
