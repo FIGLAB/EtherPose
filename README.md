@@ -4,11 +4,15 @@
 
 This is research code for EtherPose: Continuous Hand Pose Tracking with Wrist-Worn Antenna Impedance Characteristic Sensing (UIST 2022). It contains base data collection, regression, and visualization pipeline. More info can be found [here](https://daehwa.github.io/paper/EtherPose_paper.pdf) (To appear).
 
+https://github.com/daehwa/EtherPose/blob/dfaa65d9d2837bc471b415bde1a38619c87eb15b/img/etherpose_example.mp4
+
+<!-- ![](./img/etherpose_example.gif)
+
 <p align="center">
     <video preload="none" autoplay loop muted playsinline poster="https://daehwa.github.io/img/etherpose.png">
       <source src="https://daehwa.github.io/img/etherpose.mp4" type="video/mp4">
     </video>
-</p>
+</p> -->
 
 ## Installation
 
