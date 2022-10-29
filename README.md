@@ -1,4 +1,4 @@
-# Research Code for EtherPose
+# Guideline for EtherPose
 
 ## About
 
@@ -12,6 +12,7 @@ This is research code for EtherPose: Continuous Hand Pose Tracking with Wrist-Wo
     </video>
 </p>
  -->
+
 ## Installation
 
 ```
@@ -57,6 +58,10 @@ python etherpose_demo.py -S 1.36e9 -E 1.4e9 -N 21 --plot
 `space`: Recording train data.
 <br />
 `enter`: Prediction start / stop.
+
+## Hardware Configuration
+
+We used [Cloverleaf antenna](https://www.amazon.com/gp/product/B072V1F8V3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) with a single-layered copper ground plane. After soldering the [SMA Female Connector](https://www.amazon.com/gp/product/B07XWL597P/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1), the antenna was connected to [NanoVNA V2](https://www.amazon.com/gp/product/B08F9MR3NT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) through the [50ohm RF coaxial Cable](https://www.amazon.com/gp/product/B07YHLGVT9/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and some [connectors](https://www.amazon.com/gp/product/B07Z2QB9M8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). For more detail on the antenna geometries, please refer to the paper.
 
 ## Credit
 
